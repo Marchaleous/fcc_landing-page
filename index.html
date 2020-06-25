@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Nik Music Live</title>
+</head>
+<div class="overlay"></div>
+<body>
+    <header id="header">
+        <a href="#home"><img src="https://i.pinimg.com/originals/7c/02/d8/7c02d8361f7acd759f197fcb243b0800.jpg" alt="Company Logo" id="header-img"></a>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Nik Music Live</h1>
+        <a href="#about" class="btn">Learn More</a>
+    </section>
+    <section id="about">
+        <iframe width="449" height="253" src="https://www.youtube.com/embed/uTP7_NCU60E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>  
+
+        <article id="about-info">
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto suscipit aliquam quidem repellendus sequi sunt quod asperiores quia, quasi nesciunt dolorum error incidunt reprehenderit natus autem voluptates nobis corrupti quas ea perferendis praesentium consequuntur cum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quos aperiam doloremque cum. Aperiam expedita, eaque exercitationem nesciunt veritatis iste dicta, nam ullam placeat impedit, sint ipsa eligendi temporibus possimus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae laudantium molestias tempora iste ipsa sint deleniti maiores consequuntur asperiores blanditiis! Eos, ipsa autem rerum aliquid maxime similique optio dolores doloribus quam neque, voluptatibus quidem odit dolorum laborum nihil veritatis natus?</p>
+        </article>
+        <figure id="about-img">
+            <img src="https://nikrincon.files.wordpress.com/2018/01/dsc_01681.jpg?w=768" alt="Nik Rincon" id="about-img">
+            <fig-caption>Nik Rincon | Professional Musician</fig-caption>
+        </figure>
+    </section>
+    <section id="contact">
+        <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+            <h2>Contact Me</h2>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="email@example.com">
+            </div>
+            <div class="form-group">
+                <label for="message"></label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Please write your message here..."></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" id="submit" class="btn" value="Send Message">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
+
